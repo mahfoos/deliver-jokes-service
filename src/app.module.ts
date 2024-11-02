@@ -3,7 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from '@nestjs/config';
 import { JokesModule } from './jokes/jokes.module';
 import databaseConfig from './config/database.config';
-import { Joke } from './jokes/entities/joke.entity';
+import { Joke } from './entities/joke.entity';
 
 @Module({
   imports: [

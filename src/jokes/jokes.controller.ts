@@ -1,8 +1,8 @@
 import { Controller, Get, Post, Body, Query } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { JokesService } from './jokes.service';
-import { CreateJokeDto } from './dto/create-joke.dto';
-import { Joke } from './entities/joke.entity';
+import { CreateJokeDto } from '../dto/create-joke.dto';
+import { Joke } from '../entities/joke.entity';
 
 @ApiTags('jokes')
 @Controller('jokes')
