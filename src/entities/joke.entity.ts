@@ -21,10 +21,6 @@ export class Joke {
   @ApiProperty()
   type: string;
 
-  @Column({ default: true })
-  @ApiProperty()
-  isActive: boolean;
-
   @CreateDateColumn()
   @ApiProperty()
   createdAt: Date;
